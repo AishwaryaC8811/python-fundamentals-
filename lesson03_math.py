@@ -43,3 +43,20 @@ print("Result 4: ", result4)
 result5 = 5 + 2 ** 3 * (4-1)
 print("Result 5: ", result5 )
 
+#CHALLENGES
+
+
+area_rectangle = 8 * 5
+print("Area: ", area_rectangle)
+
+area_circle = 3.14 * 7 ** 2
+print("Area: ", area_circle)
+
+book = 12.99 * 3
+notebook = 3.50 * 4
+total = book + notebook 
+print("Total: ", total)
+
+variable = 45
+modulus = 45 % 2
+print("modulus: ", modulus)
