@@ -78,3 +78,52 @@ else:
 if day is not "Monday":
     print("Its not Monday")
 
+# Challenge 1: Even or Odd
+# Ask the user for a number, and tell them if it’s even or odd.
+# Example output:
+# Enter a number: 7
+# 7 is odd.
+# Hint: use modulus operator
+print()
+import math
+number = int(input("Enter a random number: "))
+if number  % 2 == 0: 
+    print("The number is even")
+else:
+    print("The number is odd")
+
+# Challenge 2: Password Check
+# Create a variable with a stored password
+# Ask the user to enter a password. 
+# If it matches the stored password, print "Access granted." Otherwise, "Access denied."
+# Example output:
+# Enter password: dolphin
+# Access granted. Access denied.
+# Enter password: swordfish
+# Access granted.
+
+stored_password = "Lalaland123"
+password = input("Enter a password: ")
+if password == stored_password:
+    print("Access granted")
+if password != stored_password:
+    print("Access denied")
+
+print ()
+
+# Challenge 3: Grading System
+# Ask the user for a numeric grade (0-100) and print a letter grade.
+# Example output:
+# Enter your grade: 94
+# You earned an A.
+print()
+grade = int(input("Enter a numeric grade 0-100: "))
+if grade >= 90:
+    print("You earned an A")
+elif grade >= 80:
+    print("You earned a B")
+elif grade >= 70:
+    print("You earned a C")
+else: 
+    print("You earned a F")
+ 
