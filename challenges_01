@@ -1,0 +1,39 @@
+# Challenge 1: Palindrome Checker
+# Write an algorithm that takes a string and returns True if it's a palindrome 
+# (reads the same forward and backward), otherwise False)
+
+palindrome = input("Enter a word: ")
+print(palindrome == palindrome[::-1])
+
+# Challenge 2: Domain from Email
+# Write an algorithm that takes an email address through user input and returns the domain 
+# (everything after the @ symbol).
+
+
+email = input("Enter an email address: ")
+
+
+
+# Challenge 3: First and Last Match
+# Given a list of strings, return True if the target matches the last element in the list.
+
+given_list = ["blue", "pink", "purple", "red"]
+user_answer = input("Enter a color that could be at the end of the list: ")
+if given_list[-1] == user_answer:
+    print("True")
+else:
+    print("False")
+
+# Challenge 4: Conditional Suffix Adder
+# Write an algorithm that takes a string.
+
+word = input("Enter a word: ")
+if word[-3:1] != "gni":
+    print(word + "ing")
+elif word[-3:1] == "gni":
+    print(word + "ly")
+elif len(word) < 3:
+    print(word)
+
+
+
