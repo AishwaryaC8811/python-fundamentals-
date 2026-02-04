@@ -80,5 +80,82 @@ def double_sequencer(number, times):
 result = double_sequencer(1, 10)
 print(result)
 
+# CHALLENGE 1
+
+# def calculator(e):
+        #return(e)
+#expression1 = (a + b)
+#print(expression1)
+#expression2 = (a - b)
+#print(expression2)
+#expression3 = (a * b)
+#print(expression3)
+#expression4 = (a // b)
+#print(expression4)
+
+
+def calculator(e):
+    return (e)
+expression1 = calculator(1 + 1)
+print(expression1)
+expression2 = calculator(1 - 1)
+print(expression2)
+expression3 = calculator(2 * 2)
+print(expression3)
+expression4 = calculator(6 // 2)
+print(expression4)
+
+
+# CHALLENGE 2
+
+# def average_that(a,b,c):
+        # return(a,b,c)
+# average = ((1 + 2 + 3) / 3)
+#print(average)
+
+def average_that(a,b,c):
+    return(a,b,c)
+average = ((7 + 7 + 7) // 3)
+print(average)
+
+#CHALLENGE 3
+
+# def is_even(a):
+        #return(a)
+
+#if a % 2 = 1
+    #print("odd")
+#else:
+    #print("even")
+
+def is_even(number):
+    return(number)
+
+number = (6)
+
+if number % 2 == 1:
+    print("odd")
+else:
+    print("even")
+
+#CHALLENGE 4
+
+def analyze_word(string):
+    return(string)
+
+string = ("apple")
+vowelCount = 0
+consonantCount = 0
+increment = 1
+
+for letter in string:
+    if letter == "a" or letter =="e" or letter == "i" or letter == "o" or letter == "u":
+        vowelCount = vowelCount + increment
+    else:
+        consonantCount = consonantCount + increment
+print("Vowel Count: ", vowelCount)
+print("Consonant Count: ", consonantCount)
+
+
 
 
